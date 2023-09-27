@@ -1,0 +1,76 @@
+// 1.
+    //1.a
+    <?xml version="1.0" encoding="utf-8"?>
+<libro autor="Isabel Castro" titulo="XML Guía de Aprendizaje" precio="30€">
+</libro>
+
+    // 1.b
+    <?xml version="1.0" encoding="utf-8"?>
+<libro>
+    <autor>Isabel Castro</autor>
+    <titulo>XML Guía de Aprendizaje</titulo>
+    <precio moneda=“euros”>30</precio>
+</libro>
+
+//a. ¿qué diferencia existe entre ambos?
+Pues en la actividad 
+Es el mismo código lo que cambia es en el tema precio que tiene puesto que tipo de moneda es. Que es el euro. 
+En el primero estan los datos en atributos y en el segundo campo esta con etiquetas.
+
+
+
+//b.  Añade el autor “Domingo Fernández Pérez" al libro.
+Solo se puede añadir en el campo 2- 1b 
+<?xml version="1.0" encoding="utf-8"?>
+<libro>
+<autor>Domingo Fernández Pérez</autor>
+<autor>Isabel Castro</autor>
+<titulo>XML Guía de Aprendizaje</titulo>
+<precio moneda=“euros”>30</precio>
+</libro>
+
+
+<padre>
+    <hijo1>
+        <nombre>Juan<apellido>Pérez</apellido>
+        </nombre>
+    </hijo1>
+    <hijo2>
+        <nombre>Luis<apellido>García</nombre>
+        </apellido>
+    </hijo2>
+</padre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//4.
+<mensaje>
+    <remite nombre="Juan" email="juan@gmail.es"/>
+    <destinatario nombre="pepe"email="pepe@gmail.es"/>
+    <asunto>Felicitación</asunto>
+    <parrafo>Felicidades por tu ascenso</parrafo>
+    <parrafo>Un saludo</parrafo>
+    <!--Comentario-->

@@ -1,0 +1,28 @@
+<Ejercicio_1>
+
+<Vehiculo> 
+
+    <Coche>
+        <marca>BMW</marca>
+        <modelo>E46</modelo>
+        <fecha>1998-2007</fecha>
+        <tonelaje>1285 kg</tonelaje>
+    </Coche>
+
+    <Coche>
+        <marca>Audi</marca>
+        <modelo>SQ8 e-tron</modelo>
+        <fecha>2023</fecha>
+        <tonelaje>2000 kg</tonelaje>
+    </Coche>
+
+    <Coche>
+        <marca>Ferrari</marca>
+        <modelo>296 GTB</modelo>
+        <fecha>2022</fecha>
+        <tonelaje>1470 kg</tonelaje>
+    </Coche>
+
+</Vehiculo>
+
+</Ejercicio_1>
