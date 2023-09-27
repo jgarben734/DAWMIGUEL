@@ -1,3 +1,4 @@
+
 #TRABAJO SOBRE MARKDOWN
 
           ## Ahora vamos a explicar que es MARKDOWN
@@ -27,6 +28,7 @@ Imagen a [markdown](https://comika.es/wp-content/uploads/2020/08/markdown-guide-
 | Fila 3, Ej.1  | Fila 3, Ej.2 | Fila 3, Ej.3   |
 
 
+Enlace a url interna [MARKDOWN](https://github.com/jgarben734/DAWMIGUEL/blob/main/Lenguajes%20de%20Marcas/Practica_1/url_interna_markdown.md)
 
 
 
