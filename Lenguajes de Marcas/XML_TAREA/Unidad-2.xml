@@ -74,3 +74,42 @@ Solo se puede añadir en el campo 2- 1b
     <parrafo>Felicidades por tu ascenso</parrafo>
     <parrafo>Un saludo</parrafo>
     <!--Comentario-->
+
+
+
+
+
+
+
+//5. Tengo que hacerlo.
+
+
+
+
+
+
+
+
+//6.
+<Factura>
+    <facturanumero
+    num="999"/>
+<Cliente>
+
+    <Clientenumero
+    num="879"/> 
+    <nombre>Jose Rodriguez</nombre>
+    <telefono>90000000</telefono>
+</Cliente>
+
+<Datos_Factura>
+
+ <articulo ref="A101">
+ <descripcion> placa base </descripcion>
+ <cantidad>1</cantidad>
+ <precio>250</precio>
+ </articulo>
+ // Tengo que terminar.
+ 
+
+
