@@ -52,13 +52,6 @@ public class Ejercicio02 {
 			
 		}
 		scan.close();
-		
-		
-		
-		
-		
-		
-
 	}
 
 }
