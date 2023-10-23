@@ -1,0 +1,21 @@
+
+<videojuegos>
+  <videojuego id="1">
+    <titulo>The Legend of Zelda: Breath of the Wild</titulo>
+    <desarrollador>Nintendo</desarrollador>
+    <lanzamiento>2017</lanzamiento>
+  </videojuego>
+  <videojuego id="2">
+    <titulo>Red Dead Redemption 2</titulo>
+    <desarrollador>Rockstar Games</desarrollador>
+    <lanzamiento>2018</lanzamiento>
+  </videojuego>
+  <videojuego id="3">
+    <titulo>Cyberpunk 2077</titulo>
+    <desarrollador>CD Projekt Red</desarrollador>
+    <lanzamiento>2020</lanzamiento>
+  </videojuego>
+</videojuegos>
+
+ // He identificado los elementos y atributos. He identificado un elemento raíz que es <videojuegos>. He asignado un identificador único para cada videojuego. Y introduci la información de los atributos y le he proporcionado valores. 
+ 
