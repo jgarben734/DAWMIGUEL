@@ -32,4 +32,4 @@ siguientes características: plato, precio, ingredientes, categoría, etc.
   </plato>
 </menu>
 
-//He creado un documento XML válido y cumple con su estructura. He creado una etiqueta raíz llamada "menú" donde contiene varios elemnetos "plato". Cada elemento "plato" tiene su atributos donde representan la información.
+//He creado un documento XML válido y cumple con su estructura. He creado una etiqueta raíz llamada "menú" donde contiene varios elementos "plato". Cada elemento "plato" tiene su atributos donde representan la información.

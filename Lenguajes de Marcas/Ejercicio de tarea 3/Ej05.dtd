@@ -1,0 +1,50 @@
+
+// 5. Crea un DTD interno en el siguiente documento XML.
+Condiciones:
+ En la agenda puede haber de 0 a n contactos.
+ Es obligatorio al menos 1 num. de teléfono (de casa, móvil o trabajo). Puede haber
+varios de cada tipo.
+ Entrega el dtd completo en la tarea.
+
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+    <contacto>
+        <nombre>Manuel</nombre>
+        <apellidos>Gomez Gomez</apellidos>
+        <direccion>
+            <calle>Geranio</calle>
+            <numero>4</numero>
+            <piso>1A</piso>
+            <cp>21001</cp>
+            <ciudad>Huelva</ciudad>
+            <provincia>Huelva</provincia>
+        </direccion>
+        <telefonos>
+            <telcasa>959100100</telcasa>
+            <telmovil>60010001000 </telmovil>
+            <teltrabajo>959200200</teltrabajo>
+        </telefonos>
+    </contacto>
+</agenda>
+
+
+
+
+
+<!DOCTYPE agenda [
+  <!ELEMENT agenda (contacto*)>
+  <!ELEMENT contacto (nombre, apellidos, direccion, telefonos)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT apellidos (#PCDATA)>
+  <!ELEMENT direccion (calle, numero, piso, cp, ciudad, provincia)>
+  <!ELEMENT calle (#PCDATA)>
+  <!ELEMENT numero (#PCDATA)>
+  <!ELEMENT piso (#PCDATA)>
+  <!ELEMENT cp (#PCDATA)>
+  <!ELEMENT ciudad (#PCDATA)>
+  <!ELEMENT provincia (#PCDATA)>
+  <!ELEMENT telefonos (telcasa*, telmovil*, teltrabajo*)>
+  <!ELEMENT telcasa (#PCDATA)>
+  <!ELEMENT telmovil (#PCDATA)>
+  <!ELEMENT teltrabajo (#PCDATA)>
+]>

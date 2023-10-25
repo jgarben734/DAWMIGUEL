@@ -1,0 +1,37 @@
+// Creación de un catálogo de productos de una tienda de informática
+Diseña un documento XML que represente un catálogo de artículos informáticos con
+detalles como por ejemplo nombre del producto, precio y descripción.
+Amplía con elementos que creas interesantes para describir ese tipo de productos e
+incluye los atributos en los lugares que veas oportunos.
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+  <producto>
+    <nombre>Portátil HP Envy 15</nombre>
+    <precio>999.99</precio>
+    <descripcion>Portátil potente con pantalla de 15 pulgadas y procesador Intel Core i7.</descripcion>
+    <marca>HP</marca>
+    <modelo>Envy 15</modelo>
+    <almacenamiento>512 GB SSD</almacenamiento>
+    <ram>16 GB DDR4</ram>
+    <sistema_operativo>Windows 10</sistema_operativo>
+  </producto>
+  <producto>
+    <nombre>Monitor LG Ultrawide 34"</nombre>
+    <precio>449.99</precio>
+    <descripcion>Monitor panorámico de 34 pulgadas con resolución 3440x1440 y tecnología IPS.</descripcion>
+    <marca>LG</marca>
+    <modelo>34WK650-W</modelo>
+    <tipo_pantalla>IPS</tipo_pantalla>
+  </producto>
+  <producto>
+    <nombre>Teclado mecánico Corsair K70 RGB</nombre>
+    <precio>129.99</precio>
+    <descripcion>Teclado mecánico para juegos con retroiluminación RGB y switches Cherry MX Red.</descripcion>
+    <marca>Corsair</marca>
+    <modelo>K70 RGB</modelo>
+    <tipo_teclado>Mecánico</tipo_teclado>
+    <conexión>USB</conexión>
+  </producto>
+</catalogo>
