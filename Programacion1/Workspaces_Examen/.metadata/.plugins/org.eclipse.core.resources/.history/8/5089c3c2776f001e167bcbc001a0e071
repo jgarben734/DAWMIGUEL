@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Ejercicio03 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner (System.in);
+		double sueldo = scan.nextDouble();
+		System.out.println("Muestra el sueldo actual");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

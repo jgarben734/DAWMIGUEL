@@ -1,0 +1,3 @@
+INDEX VERSION 1.134
+file:/C:/Users/1DAW/Miguel/Repositorios_git/DAWMIGUEL/Programacion1/Workspaces/Pasos%20desde%200/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index
+meta_index

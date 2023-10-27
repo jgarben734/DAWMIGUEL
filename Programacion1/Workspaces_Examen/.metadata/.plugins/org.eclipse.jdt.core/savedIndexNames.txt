@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\1DAW\Miguel\Repositorios_git\DAWMIGUEL\Programacion1\Workspaces_Examen\.metadata\.plugins\org.eclipse.jdt.core
+1971276538.index
+1374338625.index
+1865797976.index
