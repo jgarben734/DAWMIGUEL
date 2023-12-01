@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+div {
+    border: 1px solid black;
+}
+h1#bienvenida {
+    color:darkviolet;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+}
+div#lema {
+    width:33%;
+    float: left;
+
+}
+div#enlaces {
+    width: 67%;
+    float: left;
+}
+div#publi1 {
+    width: 25%;
+    float: left;
+}
+div#contenido {
+    width: 50%;
+    float: left;
+}
+div#publi2 {
+    width: 25%;
+    float: left;
+
+}
+.clear{
+clear:both;
+}
+div#copyright {
+    width:100%;
+    position: fixed;
+    bottom: 0;
+
+}
+
+

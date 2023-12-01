@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<style type="text/css">
+    table {
+        border: 10px outset black;
+        width: 100%;
+    }
+    th,
+    td {
+        border: 2px solid black;
+
+    }
+    th {
+        background-color: darkred;
+        font-size: xx-large;
+        color: white;
+    } 
+</style>
+<body>
+   <table cellspacing="5px">
+    <tr>
+        <th colspan="3",> Título</th>
+
+    </tr>
+    <tr>
+        <td>Celda1</td>
+        <td>Celda 2</td>
+        <td rowspan="2">Celda 3</td>
+
+    </tr>
+    <tr>
+        <td>Celda 4</td>
+        <td>Celda 5</td>
+
+    </tr>
+    <tr class=".gris">
+        <td colspan="2">Celda 6</td>
+        <td>Celda 7</td>
+    </tr>
+   </table>
+</body>
+</html>
